@@ -115,7 +115,3 @@ deploy:
   type: git
   repo: https://github.com/kimsunhyung/kimsunhyung.github.io.git
   branch: main
-=======
-deploy:
-  type: ''
->>>>>>> cba3282ba8a687f08437c8be171dce93161c8494
