@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/]" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/frame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hueman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/themes/hueman" vcs="Git" />
   </component>
 </project>
