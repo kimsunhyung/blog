@@ -1,10 +1,5 @@
 ---
 title: "0627_python 입문"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    keep_md: true
 date: '2022-06-27'
 ---
 
