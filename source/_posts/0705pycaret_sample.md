@@ -1,3 +1,8 @@
+---
+title: "0705pycaret_sample"
+date: '2022-07-05'
+---
+
 - pycaret 설치
 
 
