@@ -1,13 +1,7 @@
-- ---
+---
 title: "0708_KAGGLE입문"
 date: '2022-07-08'
 ---
-
-
-- 날짜
-- 수강생명
-
-
 
 ```python
 # This Python 3 environment comes with many helpful analytics libraries installed
