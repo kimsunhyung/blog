@@ -1,4 +1,4 @@
----
+0721_oracler_sql기초문법2.md---
 title: "0720_oracle_sql 기초문법"
 date: '2022-07-20'
 ---
