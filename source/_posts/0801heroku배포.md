@@ -28,19 +28,19 @@ Last Edited Time: 2022년 8월 1일 오후 2:05
     
 - heroku 앱 이름 생성 후 → 다운로드→github에 올림
 
-![png](/images/0801heroku배포/Untitled.png)
+![](images/0801heroku배포/Untitled.png)
 
 repo 생성 시 git tempelte을  python으로 변경하여  add a readme를 클릭!
 
 - 생성 후 http 코드를 복사하여 local 에 git clone 함
 
-![png](/images/0801heroku배포/Untitled1.png)
+![](images/0801heroku배포/Untitled1.png)
 
 - vs코드 생성 후 가상 환경을 설정한 후  Flask gunicorn을 설치
 
-![png](/images/0801heroku배포/Untitled2.png)
+![](images/0801heroku배포/Untitled2.png)
 
-![png](/images/0801heroku배포/Untitled3.png)
+![](images/0801heroku배포/Untitled3.png)
 
 ---
 
@@ -59,11 +59,11 @@ pip freeze > requirements.txt
 #라이브러리 생성 작성하는 공간을 생성
 ```
 
-![png](/images/0801heroku배포/Untitled4.png)
+![](images/0801heroku배포/Untitled4.png)
 
 [app.py](http://app.py) 파일 생성 후 저장하는 것 있지 말 것!!!! 제발!!!
 
-![png](/images/0801heroku배포/Untitled5.png)
+![](images/0801heroku배포/Untitled5.png)
 
 ```python
 # -*- coding:utf-8 -*-
@@ -76,9 +76,9 @@ def index():
     return "Hello World!"
 ```
 
-![png](/images/0801heroku배포/Untitled6.png)
+![](images/0801heroku배포/Untitled6.png)
 
-![png](/images/0801heroku배포/Untitled7.png)
+![](images/0801heroku배포/Untitled7.png)
 
 ---
 
@@ -100,7 +100,7 @@ flask run
 - 앱이 활성화 될 수 있게  만들어주는 명령어
 - Procfile 생성 후
 
-![png](/images/0801heroku배포/Untitled8.png)
+![](images/0801heroku배포/Untitled8.png)
 
 ```python
 web: gunicorn wsgi:app 
@@ -117,29 +117,29 @@ if __name__ == "__main__":
 # 명령어 작성
 ```
 
-![png](/images/0801heroku배포/Untitled9.png)
+![](images/0801heroku배포/Untitled9.png)
 
-![png](/images/0801heroku배포/Untitled10.png)
+![](images/0801heroku배포/Untitled10.png)
 
 - runtime 파일 생성 후   python 버전을 작성
 - git hub repo 에 add, commit, push 명령어를 활용하여 올림.
 
-![png](/images/0801heroku배포/Untitled11.png)
+![](images/0801heroku배포/Untitled11.png)
 
-![png](/images/0801heroku배포/Untitled12.png)
+![](images/0801heroku배포/Untitled12.png)
 
 - app.py에서 heroku login 명령어 작성 후 실행
 - 아무 키를 누르고 난 후 로그인 진행
 
-![png](/images/0801heroku배포/Untitled13.png)
+![](images/0801heroku배포/Untitled13.png)
 
 - 로그인된 것을 확인하고 난 후
 
-![png](/images/0801heroku배포/Untitled14.png)
+![](images/0801heroku배포/Untitled14.png)
 
 heroku create 홈페이지 이름을 작성하여 진행
 
-![png](/images/0801heroku배포/Untitled15.png)
+![](images/0801heroku배포/Untitled15.png)
 
 gitpush heroku main을 작성하여 진행한 후 페이지에
 
@@ -163,11 +163,11 @@ if __name__ == "__main__":
 
 - templates 파일 생성 후 그 안에 index 파일 생성
 
-![png](/images/0801heroku배포/Untitled16.png)
+![](images/0801heroku배포/Untitled16.png)
 
 - 명령어 작성 후
 
-![png](/images/0801heroku배포/Untitled17.png)
+![](images/0801heroku배포/Untitled17.png)
 
 ```python
 <!DOCTYPE html>
@@ -206,11 +206,11 @@ git push heroku main
 - temp폴더 완성 후
 - static 폴더 생성 후 안에 css폴더를 생성한 후 style.css 파일 넣음
 
-![png](/images/0801heroku배포/Untitled18.png)
+![](images/0801heroku배포/Untitled18.png)
 
 - style.css 에 아래 명령어를 작성하고
 
-![png](/images/0801heroku배포/Untitled19.png)
+![](images/0801heroku배포/Untitled19.png)
 
 ```css
 h1 {
@@ -223,7 +223,7 @@ h1 {
 
 - index.html파일에 meta와 title 사이에 아래 명령어를 작성
 
-![png](/images/0801heroku배포/Untitled20.png)
+![](images/0801heroku배포/Untitled20.png)
 
 ```python
 <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
@@ -232,7 +232,7 @@ h1 {
 - flask run으로 변경되었는지 확인
 - 이렇게 뜨면 완성
 
-![png](/images/0801heroku배포/Untitled21.png)
+![](images/0801heroku배포/Untitled21.png)
 
 ---
 
